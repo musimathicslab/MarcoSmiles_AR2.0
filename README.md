@@ -1,3 +1,18 @@
+# MarcoSmiles AR 1.0
+
+MarcoSmiles AR 1.0 is a distributed client–server augmented reality (AR) platform designed for musical interaction and performance. The system leverages a Meta Quest headset for real-time hand tracking and visualization, while heavy computation, including model training and inference, is offloaded to a high-performance server.
+
+## Overview
+
+- **Platform:** Meta Quest 3 headset (AR), high-performance server for computation
+- **Purpose:** Enable natural, immersive music creation while addressing limitations of Leap Motion-based prototypes
+- **Key Features:**
+  - Distributed client–server architecture
+  - Real-time gesture recognition in AR
+  - Offloading of training and inference to external server
+  - MIDI output for integration with external DAWs such as Ableton Live and FL Studio
+
+
 ## Client: MarcoSmilesClient
 1. **Import the Project into Unity Hub**:
     - Open Unity Hub.
