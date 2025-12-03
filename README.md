@@ -34,8 +34,8 @@ MarcoSmiles AR 2.0 demonstrates the positive impact of redesigning AR workflows 
 ## Resources
 
 - 📘 *Designing accessible Digital Musical Interfaces for democratizing the music creativity* [Zaccagnono et al., 2025](https://ieeexplore.ieee.org/abstract/document/11216853)
-- (https://drive.google.com/file/d/1_bIN5hbjpsh_j3F2BHBtANv1mOuKMnlX/view?usp=sharing)
-
+- 🎬 The video is not yet available, but it is under review and will be published as soon as possible.
+  
 ## Client: MarcoSmilesClient
 1. **Import the Project into Unity Hub**:
     - Open Unity Hub.
