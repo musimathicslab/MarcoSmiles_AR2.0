@@ -1,17 +1,40 @@
-# MarcoSmiles AR 1.0
+# MarcoSmiles AR 2.0
 
-MarcoSmiles AR 1.0 is a distributed client–server augmented reality (AR) platform designed for musical interaction and performance. The system leverages a Meta Quest headset for real-time hand tracking and visualization, while heavy computation, including model training and inference, is offloaded to a high-performance server.
+MarcoSmiles AR 2.0 is the latest iteration of the MarcoSmiles AR system, focusing on efficiency, usability, and enhanced musical interaction. The platform retains the distributed AR architecture while optimizing training and performance workflows.
 
 ## Overview
 
 - **Platform:** Meta Quest 3 headset (AR), high-performance server for computation
-- **Purpose:** Enable natural, immersive music creation while addressing limitations of Leap Motion-based prototypes
+- **Purpose:** Improve user experience, reduce training complexity, and support creative musical expression
 - **Key Features:**
-  - Distributed client–server architecture
-  - Real-time gesture recognition in AR
-  - Offloading of training and inference to external server
-  - MIDI output for integration with external DAWs such as Ableton Live and FL Studio
+  - Optimized data acquisition: single-session hand-position capture
+  - Automatic detection of stable hand poses without fixed timing constraints
+  - Decoupled data acquisition and model training for flexibility
+  - Enhanced performance interactions:
+    - Octave control via hand height along coronal plane
+    - Repeated-note triggering via forward motion along sagittal plane
+  - Dedicated MIDI management for external DAW integration
 
+## User Experience Evaluation
+
+A comparative evaluation of MarcoSmiles Double Leap, AR 1.0, and AR 2.0 was conducted using the User Experience Questionnaire (UEQ).  
+**Findings:**
+- AR 2.0 shows significant improvements in:
+  - Attractiveness
+  - Perspicuity
+  - Efficiency
+  - Originality
+- Moderate improvements in Controllability and Stimulation, indicating areas for further refinement
+- Feedback from an ALS user highlighted better support for creativity and musical expression, with minor adjustments needed for automatic data acquisition under hand tremors
+
+## Conclusion
+
+MarcoSmiles AR 2.0 demonstrates the positive impact of redesigning AR workflows on usability and user experience, advancing immersive musical interaction in distributed AR environments.
+
+## Resources
+
+- 📘 *Designing accessible Digital Musical Interfaces for democratizing the music creativity* [Zaccagnono et al., 2025](https://ieeexplore.ieee.org/abstract/document/11216853)
+- (https://drive.google.com/file/d/1_bIN5hbjpsh_j3F2BHBtANv1mOuKMnlX/view?usp=sharing)
 
 ## Client: MarcoSmilesClient
 1. **Import the Project into Unity Hub**:
