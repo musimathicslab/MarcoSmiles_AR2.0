@@ -14,26 +14,8 @@ MarcoSmiles AR 2.0 is the latest iteration of the MarcoSmiles AR system, focusin
     - Octave control via hand height along coronal plane
     - Repeated-note triggering via forward motion along sagittal plane
   - Dedicated MIDI management for external DAW integration
-
-## User Experience Evaluation
-
-A comparative evaluation of MarcoSmiles Double Leap, AR 1.0, and AR 2.0 was conducted using the User Experience Questionnaire (UEQ).  
-**Findings:**
-- AR 2.0 shows significant improvements in:
-  - Attractiveness
-  - Perspicuity
-  - Efficiency
-  - Originality
-- Moderate improvements in Controllability and Stimulation, indicating areas for further refinement
-- Feedback from an ALS user highlighted better support for creativity and musical expression, with minor adjustments needed for automatic data acquisition under hand tremors
-
-## Conclusion
-
-MarcoSmiles AR 2.0 demonstrates the positive impact of redesigning AR workflows on usability and user experience, advancing immersive musical interaction in distributed AR environments.
-
+    
 ## Resources
-
-- 📘 *Designing accessible Digital Musical Interfaces for democratizing the music creativity* [Zaccagnono et al., 2025](https://ieeexplore.ieee.org/abstract/document/11216853)
 - 🎬 The video is not yet available, but it is under review and will be published as soon as possible.
   
 ## Client: MarcoSmilesClient
